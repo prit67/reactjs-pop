@@ -1,0 +1,415 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar.fixed-top.navbar-inverse.navbar-expand-lg.navbar-dark.navigation-wrap{
+  background-color:  black;
+}
+.navbar li a {
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: white;
+  transition: 0.7s;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+.navbar-brand.logo img {
+  transition: 0.5s;
+}
+.navbar-brand.logo img:hover {
+
+  color: rgb(229, 26, 48) !important;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(198, 1, 3),
+    0 0 20px rgb(198, 1, 3),
+    0 0 40px rgb(198, 1, 3),
+    0 0 80px rgb(198, 1, 3),
+    0 0 120px rgb(198, 1, 3),
+    0 0 160px rgb(198, 1, 3);
+}
+a.nav-link{
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(232, 198, 157);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a.nav-item.nav-link.active{
+  color: rgb(232, 198, 157);
+}
+a.nav-link:hover {
+  cursor: pointer;
+  border: 1px;
+  border-style: hidden;
+  border-radius: 15px;
+  color: rgb(229, 26, 48) !important;
+  text-shadow: 0 0 10px rgb(198, 1, 3),
+    0 0 20px rgb(198, 1, 3),
+    0 0 40px rgb(198, 1, 3),
+    0 0 80px rgb(198, 1, 3),
+    0 0 120px rgb(198, 1, 3),
+    0 0 160px rgb(198, 1, 3);
+}
+
+.top-banner {
+  width: 100%;
+  background: url('./components/img/bg.jpg') no-repeat center;
+  background-size: cover;
+  padding: 16.875rem 0 9.375rem;
+}
+
+div.col.home {
+  text-align: center;
+  color: #cda45e;
+  font-family: cursive;
+  font-weight: bolder;
+}
+div.col.home h1{
+  color: #cda45e;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+div.col.home h2 {
+  text-align: center;
+  color: #cda45e;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+button.btn.btn-outline-light {
+  font-weight: 800;
+  background-color: rgb(198, 1, 3);
+  transition: 0.5s;
+}
+
+button.btn.btn-outline-light:hover {
+  color: white;
+  box-shadow: 0 0 10px rgb(198, 1, 3),
+    0 0 20px rgb(198, 1, 3),
+    0 0 40px rgb(198, 1, 3),
+    0 0 80px rgb(198, 1, 3),
+    0 0 120px rgb(198, 1, 3),
+    0 0 160px rgb(198, 1, 3);
+}
+a.btn.btn-outline-light {
+  font-weight: 800;
+  background-color: rgb(198, 1, 3);
+  transition: 0.5s;
+}
+
+a.btn.btn-outline-light:hover {
+  color: white;
+  box-shadow: 0 0 10px rgb(198, 1, 3),
+    0 0 20px rgb(198, 1, 3),
+    0 0 40px rgb(198, 1, 3),
+    0 0 80px rgb(198, 1, 3),
+    0 0 120px rgb(198, 1, 3),
+    0 0 160px rgb(198, 1, 3);
+}
+footer{
+  background-color: #131314;
+}
+footer .btn.btn-outline{
+  cursor: pointer;
+  color: #121214;
+}
+footer .btn.btn-outline:hover{
+  cursor: pointer;
+
+}
+.fab.fa-facebook{
+  color: #4267B2;
+  transition: 0.7s;
+}
+.fab.fa-facebook:hover{
+  color: #4267B2;
+  text-shadow:0 0 10px #4267B2,
+  0 0 20px #4267B2,
+  0 0 40px #4267B2,
+  0 0 80px #4267B2,
+  0 0 120px #4267B2,
+  0 0 160px #4267B2; 
+}
+.fab.fa-instagram{
+  color: #e1306c;
+  transition: 0.7s;
+}
+.fab.fa-instagram:hover{
+  color: #e1306c;
+  text-shadow:  0 0 10px #e1306c,
+  0 0 20px #e1306c,
+  0 0 40px #e1306c,
+  0 0 80px #e1306c,
+  0 0 120px #e1306c,
+  0 0 160px #e1306c; 
+}
+.fab.fa-youtube{
+  color:  #FF0000;
+   transition: 0.7s;
+}
+.fab.fa-youtube:hover{
+  color:  #FF0000;
+  text-shadow:  0 0 10px #FF0000,
+  0 0 20px #FF0000,
+  0 0 40px #FF0000,
+  0 0 80px #FF0000,
+  0 0 120px #FF0000,
+  0 0 160px #FF0000; 
+}
+.fab.fa-twitter{
+  color: #00acee; transition: 0.7s;
+}
+.fab.fa-twitter:hover{
+  color:  00acee;
+  text-shadow:  0 0 10px white,
+  0 0 20px #00acee,
+  0 0 40px #00acee,
+  0 0 80px #00acee,
+  0 0 120px #00acee,
+  0 0 160px #00acee; 
+}
+.fab.fa-linkedin-in{
+  color: #0077b5; transition: 0.7s;
+}
+.fab.fa-linkedin-in:hover{
+  color:  #0077b5;
+  text-shadow:  0 0 10px white,
+  0 0 20px #0077b5,
+  0 0 40px #0077b5,
+  0 0 80px #0077b5,
+  0 0 120px #0077b5,
+  0 0 160px #0077b5; 
+}
+footer .text-center{
+  background-color: black;
+}
+footer .text-center a{
+  text-decoration: none;
+  cursor: pointer;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+div.col.about h1 {
+  font-weight: bolder;
+}
+
+div.col.about p {
+  font-weight: bolder;
+}
+
+div.container.food {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div.container.food img {
+  cursor: pointer;
+  transition: 0.7s;
+  overflow: hidden;
+}
+
+div.container.food img:hover {
+  border-radius: 10px;
+  border-color: #c67101;
+  box-shadow: 0 0 10px #c67101,
+    0 0 20px #c67101,
+    0 0 40px #c67101,
+    0 0 80px #c67101,
+    0 0 120px #c67101,
+    0 0 160px #c67101;
+}
+
+div.container.food-place img {
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.7s;
+}
+
+div.container.food-place img:hover {
+  border-radius: 10px;
+  border-color: rgb(198, 1, 3);
+  box-shadow: 0 0 10px rgb(198, 1, 3),
+    0 0 20px rgb(198, 1, 3),
+    0 0 40px rgb(198, 1, 3),
+    0 0 80px rgb(198, 1, 3),
+    0 0 120px rgb(198, 1, 3),
+    0 0 160px rgb(198, 1, 3);
+}
+
+div.container.food h1 {
+  transition: 0.7s;
+}
+
+div.container.food h1:hover {
+  cursor: pointer;
+}
+
+div.container.food h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  color: antiquewhite;
+}
+
+body h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  color: antiquewhite;
+}
+.card-title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  color: antiquewhite;
+  text-align: center;
+}
+#menu.container h1{
+  color: lightgrey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: -0.1px;
+  transition: 0.7s;
+}
+#menu.container h1:hover{
+  cursor: pointer;
+}
+.card{
+  background-color: black;
+  text-align: left;
+  border: white 1px solid;
+  justify-content: center;
+  transition: 0.9s;
+}
+.card:hover{
+  cursor: pointer;
+  color: white;
+   box-shadow: 0 0 10px white,
+    0 0 20px white,
+    0 0 40px white,
+    0 0 80px white; 
+    border: 0px none;
+}
+img .card-img-top{
+  border: white 1px solid;
+}
+.card-img, .card-img-top {
+  border: white 1px solid;
+  height: 250px;
+}
+.align-items-center {
+  margin: 16px 0px;
+}
+#menu.my-3 {
+  margin-top: 10px;
+}
+#menu a {
+  font-weight: 800;
+  background-color: rgb(198, 1, 3);
+  transition: 0.5s;
+}
+#menu .btn-space{
+  margin-left: 100px;
+}
+.read-more-read-less p{
+  color: white;
+  font-weight: 900;
+}
+
+div.my-3.menuitem {
+  /* align-content: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#reviews h1{
+  font-weight: bolder;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#reviews h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  color: antiquewhite;
+}
+
+#contact{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+body h1{
+  margin-top: 50px;
+   margin-bottom: 0px;
+   text-align: center;
+  color: antiquewhite;
+  font-weight: bolder;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contact li i:hover{
+  cursor: pointer;
+  color: lightskyblue;
+}
+#contact li i{
+  transition: 0.7s;
+}
+#contact li a{
+  color: white;
+  transition: 0.7s;
+}
+#contact li a:hover{
+  color: lightskyblue;
+}
+#contact .col-md-9.mb-md-0.mb-5 {
+  margin-top: 25px;
+}
+footer .text-center{
+  font-weight: bolder;
+  cursor: pointer;
+}
+#contact input,
+#contact textarea{
+  background-color: black;
+  color: white;
+}
